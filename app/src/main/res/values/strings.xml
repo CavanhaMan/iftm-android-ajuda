@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProjetoExemplo</string>
+    <string name="teste_textview">Teste TextView</string>
+</resources>

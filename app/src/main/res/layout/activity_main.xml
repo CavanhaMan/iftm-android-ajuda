@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--TODO (1) EU INSERI UM NOVO ID NA VIEW QUE EU QUERO MANIPULAR, QUE NO CASO É ESSE TEXTVIEW
+     NORMALMENTE OS IDS SAO COMPOSTOS POR:
+     - @ para repesentar que é um Resource do android
+     - + para indicar que está criando um novo ID
+     - id para representar que o recurso que está criando é um ID
+     - / para separar a instancia do recurso do nome do recurso
+     - TEXTO APOS A BARRA para denominar descritivamente o que é que voce esta nomeando
+     -->
+    <TextView
+        android:id="@+id/textview_de_teste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
